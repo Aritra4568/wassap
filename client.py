@@ -1,10 +1,6 @@
 from socket import AF_INET, socket, SOCK_STREAM
 from threading import Thread
 import tkinter
-import os
-
-command="python server.py"
-os.system("gnome-terminal -e 'bash -c \""+command+";bash\"'")
 
 def receive():
     """Handles receiving of messages."""
