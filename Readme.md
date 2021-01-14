@@ -28,11 +28,15 @@ To install JARVIS in your linux system perform the following steps:
     PORT:33006
    
 
-4. Follow the onscreen instructions.
+5. Follow the onscreen instructions.
 
 
 
 ## Credit
 
 JARVIS is made by **Aritra Malik**.
+
+## Server Time
+
+Server will get online during 01:00 PM to 03:00 PM [SUNDAY CLOSED]
 
