@@ -21,7 +21,7 @@ To install JARVIS in your linux system perform the following steps:
    python client.py
    ```
 
-4. Type the :
+4. Type this to connect to server and talk to your friends :
     
     ```python
     HOST:127.0.0.1
