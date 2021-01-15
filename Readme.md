@@ -34,7 +34,7 @@ To install JARVIS in your linux system perform the following steps:
 
 ## Credit
 
-JARVIS is made by **Aritra Malik**.
+WASSUP is made by **Aritra Malik**.
 
 ## Server Time
 
