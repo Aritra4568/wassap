@@ -1,9 +1,11 @@
-from socket import AF_INET, socket, SOCK_STREAM # for the chat server system
-from threading import Thread
-import tkinter #for gui interface
 import os # for installation
 command="sudo dnf install python3-tkinter && exit"
 os.system("gnome-terminal -e 'bash -c \""+command+";bash\"'")
+
+from socket import AF_INET, socket, SOCK_STREAM # for the chat server system
+from threading import Thread
+import tkinter #for gui interface
+ 
 
 def receive():
     #"""Handles receiving of messages."""
