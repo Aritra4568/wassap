@@ -1,12 +1,12 @@
-from socket import AF_INET, socket, SOCK_STREAM
+from socket import AF_INET, socket, SOCK_STREAM # for the chat server system
 from threading import Thread
-import tkinter
-import os
+import tkinter #for gui interface
+import os # for installation
 command="sudo dnf install python3-tkinter && exit"
 os.system("gnome-terminal -e 'bash -c \""+command+";bash\"'")
 
 def receive():
-    """Handles receiving of messages."""
+    #"""Handles receiving of messages."""
     while True:
         try:
             msg = client_socket.recv(BUFSIZ).decode("utf8")
@@ -16,7 +16,7 @@ def receive():
 
 
 def send(event=None):  
-    """Handles sending of messages."""
+    #"""Handles sending of messages."""
     msg = my_msg.get()
     my_msg.set("")  
     client_socket.send(bytes(msg, "utf8"))
@@ -26,10 +26,11 @@ def send(event=None):
 
 
 def on_closing(event=None):
-    """This function is to be called when the window is closed."""
+    #"""This function is to be called when the window is closed."""
     my_msg.set("{quit}")
     send()
 
+#tkinter part
 top = tkinter.Tk()
 top.title("!!Wassup!!")
 
@@ -56,7 +57,7 @@ top.protocol("WM_DELETE_WINDOW", on_closing)
 HOST = input('Enter host: ')
 PORT = input('Enter port: ')
 if not PORT:
-    PORT = 33006
+    PORT = 33007
 else:
     PORT = int(PORT)
 
