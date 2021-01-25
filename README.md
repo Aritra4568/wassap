@@ -6,6 +6,7 @@ WASSUP is a GUI based offline and online chating app devloped in python.
 You need to have `python3` installed in your system. The following package(s) are necessary:
 
 - pip
+- tkinter
 
 ## Installation
 
