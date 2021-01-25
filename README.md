@@ -25,7 +25,7 @@ To install WASSUP in your linux system perform the following steps:
 4. Type this to connect to server and talk to your friends with no internet connection:
     
     ```python
-    HOST:127.0.0.1
+    HOST:(Press Enter key)
     PORT:33007
    
 
